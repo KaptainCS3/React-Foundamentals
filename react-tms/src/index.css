@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  /* background: l */
+  font-family: Georgia, "Times New Roman", Times, serif;
+  /* display: flex; */
+  width: 1200px;
+  margin: 20px auto;
+}
+h1 {
+  text-align: center;
+  /* color: linear-gradient(to left, #c3ece9, #f2b24c, #50dd97, #00f, #c9c9c9); */
+}
