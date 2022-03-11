@@ -2,15 +2,30 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+} 
+article{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    width: 100%;
+    padding-top: 20px;
+    flex-direction: row;
+    margin-left: 20px;
 }
-html {
-  /* background: l */
-  font-family: Georgia, "Times New Roman", Times, serif;
-  /* display: flex; */
-  width: 1200px;
-  margin: 20px auto;
+.book{
+  background: #eee;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* flex-wrap: wrap; */
+  height: auto;
 }
-h1 {
+.img{
+  padding: 20px 0;
+}
+.book h1, h2, p{
+  padding: 10px 20px;
   text-align: center;
-  /* color: linear-gradient(to left, #c3ece9, #f2b24c, #50dd97, #00f, #c9c9c9); */
 }
+
