@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 
+// This is the main container of the  tour project and  we will pass our values using props which are our parameters
+
 const Tour = ({id,image,info,price,name , removeTours}) => {
   const [readMore,setReadMore] = useState(false)
   return <>
@@ -19,6 +21,7 @@ const Tour = ({id,image,info,price,name , removeTours}) => {
         {/* </button> */}
         {info}
       </p>
+      {/* Here is our button with the onclick event  to delete a tour  */}
       <button className='delete-btn' onClick={()=> removeTours(id)} >not interestes</button>
     </footer>
   </article>
