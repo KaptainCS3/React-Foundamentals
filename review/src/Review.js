@@ -3,9 +3,13 @@ import people from './data';
 import { FaChevronLeft, FaChevronRight, FaQuoteRight } from 'react-icons/fa';
 
 const Review = () => {
+
+  // The review is same as a carousel you know in css and normal js
   const [index,setIndex] = useState(0)
   const {name,job,image,text} = people[index]
 
+
+  // This function helps us check and make sure we dont go above the lenght of our array and below its lenght 
   const checkNumber = (number)=>{
     if(number > people.length - 1){
       return 0
@@ -15,6 +19,7 @@ const Review = () => {
     return number
   }
   
+  // This function help us in moving to the previous element
   const prevPerson = ()=>{
     setIndex((index)=>{
       let newIndex = index - 1 
@@ -24,7 +29,8 @@ const Review = () => {
       return  checkNumber(newIndex)
     })
   }
-
+  
+  // This function help us in moving to the next element
   const nextPerson = ()=>{
     setIndex((index)=>{
       let newIndex = index + 1 
@@ -35,6 +41,8 @@ const Review = () => {
     })
   }
 
+
+  // in this function , we use the random object to generate random numbers so we can get random images within our range
   const randomPerson = ()=>{
       let randomIndex = Math.floor(Math.random() * people.length)
       if(randomIndex === index){
