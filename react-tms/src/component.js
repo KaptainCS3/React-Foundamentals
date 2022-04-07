@@ -1,5 +1,5 @@
-import RactDom from "react-dom";
-function AppComponent() {
+import React from "react";
+function AppComponent2() {
   return (
     <heading>
       <Hero />
@@ -44,3 +44,4 @@ const Des = () => {
     </section>
   );
 };
+export default AppComponent2;
