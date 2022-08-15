@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f3f3f3;
+    margin: 50px 0;
+}
+.container{
+    width: 600px;
+    /* height: 500px; */
+    background: #fff;
+    border-radius: 10px;
+}
+.nav{
+    width: 100%;
+    height: 13%;
+    /* background: #fff; */
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, .1);
+}
+.nav img{
+    margin: 25px 25px 20px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+main img{
+    height: 250px;
+    display: inline-block;
+    margin-top: 35px;
+    align-self: center;
+}
+.hero, .description{
+    padding: 0 35px;
+}
+.hero{
+    font-size: 2.5em;
+    padding-top: 20px;
+}
+.description{
+    padding-top: 10px;
+    font-size: 1.1em;
+    width: 75%;
+    color: #999;
+    line-height: 20px;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    width: 31%;
+}
+.card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.card-content .rating span{
+    width: 20px;
+    height: 20px;
+}
+.usa{
+    color: #999;
+}
+.rating span img{
+    display: inline-block;
+    margin-top: 12px;
+    width: 8%;
+}
+.card-content .person{
+    padding-top: 5px;
+    padding-bottom: 25px;
+    display: inline-block;
+    font-size: .79em;
+}
+.card-content p{
+    width: 105%;
+    font-size: 0.76em;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 35px;
+    flex-wrap: wrap;
+}
+.img{
+    height: 240px;
+}
