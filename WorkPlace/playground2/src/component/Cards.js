@@ -1,6 +1,6 @@
 import React from "react";
 import star from '../images/Star 1.png'
-const Cards = ({img, alt, rating, grayTxt, name, des}) =>{
+const Cards = ({img, alt, rating, grayTxt, title, price}) =>{
   // console.log(props)
   return (
     <>
@@ -14,9 +14,9 @@ const Cards = ({img, alt, rating, grayTxt, name, des}) =>{
             <span>{rating}</span>
             <span className="usa">{grayTxt}</span>
           </span>
-          <p className="card-profile">{name}</p>
+          <p className="card-profile">{title}</p>
           <span className="person">
-            <b>{des}</b> / person
+            <b>{price}</b> / person
           </span>
         </div>
       </div>

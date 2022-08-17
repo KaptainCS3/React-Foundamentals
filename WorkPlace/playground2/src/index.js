@@ -19,24 +19,24 @@ const App = () =>{
           alt="Zaferes USA"
           rating="5.0"
           grayTxt="(6). USA"
-          name="Life lessons with Katie Zaferes"
-          des="From $136"
+          title="Life lessons with Katie Zaferes"
+          price="From $136"
         />
         <Cards
           img={wedding}
           alt='wedding photography'
           rating="5.0"
           grayTxt="(30). USA"
-          name="Learn wedding photography"
-          des="From $125"
+          title="Learn wedding photography"
+          price="From $125"
         />
         <Cards
           img={bike}
           alt = 'Mountain bike'
           rating="4.8"
           grayTxt="(2). USA"
-          name="Group Mountain Bikin"
-          des="From $50"
+          title="Group Mountain Bikin"
+          price="From $50"
         />
       </div>
     </div>
