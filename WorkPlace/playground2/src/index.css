@@ -15,14 +15,12 @@ body{
 }
 .container{
     width: 600px;
-    /* height: 500px; */
     background: #fff;
     border-radius: 10px;
 }
 .nav{
     width: 100%;
     height: 13%;
-    /* background: #fff; */
     border-radius: 10px 10px 0 0;
     box-shadow: 0px 2px 7px rgba(0, 0, 0, .1);
 }
@@ -57,6 +55,8 @@ main img{
     display: flex;
     flex-direction: column;
     width: 31%;
+    margin: 0 10px;
+    position: relative;
 }
 .card-content{
     display: flex;
@@ -89,10 +89,30 @@ main img{
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
-    margin-left: 35px;
-    flex-wrap: wrap;
+    margin-left: 25px;
+    margin-right: 15px;
+    overflow-x: hidden;
 }
 .img{
     height: 240px;
     width: 176px;
+    border-radius: 10px;
+}
+
+.badge{
+    font-size: 0.8em;
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    background: #fff;
+    color: #222;
+    width: 75px;
+    height: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 14px 5px;
 }
