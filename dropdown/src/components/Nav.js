@@ -1,12 +1,11 @@
 import React from 'react'
-import navLogo from "../images/logo192.png"
 function Nav() {
   return (
     <>
       <nav className="nav">
         <div className="nav-left">
           <span className="img">
-            <img src={navLogo} className="img-logo" />
+            <img src={require('../images/logo192.png')} className="img-logo" />
           </span>
           <span>ReactFacts</span>
         </div>
