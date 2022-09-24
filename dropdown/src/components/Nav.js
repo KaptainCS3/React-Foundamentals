@@ -25,7 +25,7 @@ function Nav({toggleDarkMode, darkMode}) {
 
       <nav className={darkMode ? "dark" : ""}>
         <img className="nav--logo_icon" src={logo} alt='React-logo'/>
-        <h3 className="nav--logo_text">ReacstFacts</h3>
+        <h3 className="nav--logo_text">ReactFacts</h3>
 
         <div className="toggler">
           <p className="toggler--light">Light</p>
