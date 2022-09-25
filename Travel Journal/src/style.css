@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f3f3f3;
+    font-family: 'Inter';
+    margin: 50px 0;
+}
+.container{
+    /* border: 2px solid transparent; */
+    width: 550px;
+    height: 720px;
+    background: #fff;
+    /* border-radius: 10px; */
+}
+.icons{
+    padding-right: 5px;
+    color: #f00;
+    font-size: 1.2em;
+}
+header p, p .icons{
+    color: #fff;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    background: #f55a5a;
+    margin-bottom: 16px;
+    /* border-radius: 10px 10px 0 0; */
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+    width: 85%;
+    margin: 0 auto;
+    border-bottom: 1px solid #f3f3f3;
+}
+.img{
+    height: 168px;
+    width: 125px;
+    border-radius: 10px;
+}
+.hero{
+    color: #2B283A;
+    font-size: 1.5em;
+    font-weight: 700;
+    font-style: normal;
+    padding-top: 5px;
+}
+.location{
+    font-size: 0.8em;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.gMap{
+    padding-left: 10px;
+    color: #999;
+    font-size: 0.8em;
+    font-weight: 500;
+}
+.dates{
+    padding: 18px 0 0;
+    color: #2B283A;
+    font-size: 0.625em;
+    font-weight: 700;
+    font-style: normal;
+}
+.card-description{
+    padding-left: 20px;
+}
+.img-description{
+    padding-top: 8px;
+    font-size: 0.8em;
+}
