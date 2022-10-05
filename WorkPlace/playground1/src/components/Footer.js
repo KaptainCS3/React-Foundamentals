@@ -1,21 +1,21 @@
 import React from "react";
-import { FaFontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  FaGithub,
-  faInstagram,
-  faTwitter,
-  faLinkedin,
-} from "@fortawesome/free-brands-svg-icons";
+// import { FaFontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import {
+//   FaGithub,
+//   faInstagram,
+//   faTwitter,
+//   faLinkedin,
+// } from "@fortawesome/free-brands-svg-icons";
 const Footer = () => {
   return (
     <footer>
       <nav className="nav-footer">
         <ul className="nav-bar-footer">
-          <li>
+          {/* <li>
             <FontAwesomeIcon icon={FaGithub} />
             GitHub
-          </li>
-          <li>
+          </li> */}
+          {/* <li>
             <FontAwesomeIcon icon={faInstagram} />
             Instagram
           </li>
@@ -26,7 +26,7 @@ const Footer = () => {
           <li>
             <FontAwesomeIcon icon={faLinkedin} />
             Linkedin
-          </li>
+          </li> */}
         </ul>
       </nav>
       <p>
